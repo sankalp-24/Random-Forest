@@ -4,4 +4,19 @@ ABSTRACT : In the last few years, the number of for-hire vehicles operating in N
 
 PROBLEM STATEMENT : Given pickup and dropoff locations, the pickup timestamp, and the passenger count, the objective is to predict the fare of the taxi ride using Random Forest.
 
-APPROACH : 
+
+APPROACH : To predict taxi fares based on ride features like distance, time, and pickup/drop-off locations.
+
+
+Tools & Libraries: Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn
+
+
+Key Steps:
+	•	Conducted data cleaning including outlier removal and handling of missing values.
+	•	Engineered features like ride distance, day of the week, and hour of pickup from timestamp and location data.
+	•	Performed exploratory data analysis (EDA) to understand fare patterns.
+	•	Implemented a Random Forest Regressor to model the fare prediction task.
+	•	Evaluated the model using metrics like R² Score, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
+
+ 
+Outcome: Built a robust model capable of predicting taxi fares with high accuracy, demonstrating the value of ensemble models and feature engineering in real-world regression tasks.
