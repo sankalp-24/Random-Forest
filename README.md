@@ -21,6 +21,7 @@ Python | Pandas | NumPy | Seaborn | Matplotlib | Scikit-learn
 ⸻
 
 🔑 Key Steps
+
 	•	🧹 Data Cleaning – Removed outliers and handled missing values to ensure dataset integrity.
 	•	🛠 Feature Engineering – Derived features like ride distance (from coordinates), day of the week, and hour of pickup from timestamp data.
 	•	📊 Exploratory Data Analysis (EDA) – Analyzed fare patterns across time, location, and passenger count.
